@@ -1,0 +1,23 @@
+<section class="toolbar toolbar-view">
+    <section class="box-tabs">
+        <div class="extra left"></div>
+        <%= tabsmarkup %>
+				<div class="operation">
+					<span class="btn-slot split slot-btn-setfilter header-btn-autofilter"></span>
+					<span id="print-btn" class="header-btn-print"></span>
+				</div>
+        <div class="extra right">
+        </div>
+    </section>
+    <section class="box-controls">
+        <section class="box-panels">
+            <section class="panel home" data-tab="home">
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot slot-btn-clear-filter"></span>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</section>

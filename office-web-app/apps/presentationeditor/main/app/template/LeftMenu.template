@@ -1,0 +1,37 @@
+<div id="view-left-menu" class="tool-menu left">
+    <div class="left-menu-collapse">
+        <button id="left-btn-thumbs-icon" class="btn btn-category" data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target=""><i class="icon toolbar__icon btn-menu-thumbs">&nbsp;</i></button>
+				<button id="left-btn-search-icon" class="btn btn-category" data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target=""><i class="icon toolbar__icon btn-menu-search">&nbsp;</i></button>
+        <button id="left-btn-comments-icon" class="btn btn-category" data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target="left-panel-comments"><i class="icon toolbar__icon btn-menu-comments">&nbsp;</i></button>
+        <button id="left-btn-chat-icon" class="btn btn-category" data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target="left-panel-chat"><i class="icon toolbar__icon btn-menu-chat">&nbsp;</i></button>
+    </div>
+    <div id="left-menu-expand">
+        <div class="left-menu-expand" >
+           <div class="tool-menu-btns">
+                <div class="menu-btn">
+                    <button id="left-btn-thumbs" class="btn" data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target=""></button>
+                    <button id="left-btn-search" class="btn" data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target=""></button>
+                    <button id="left-btn-comments" class="btn" data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target="left-panel-comments"></button>
+                    <button id="left-btn-chat" class="btn " data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target="left-panel-chat"></button>
+                </div>
+                <button id="left-btn-close" class="btn btn-close" data-hint="0" data-hint-direction="right" data-hint-offset="big" content-target="left-panel-close">×</button>
+            </div>
+            <div class="left-panel" style="">
+                <!-- /** coauthoring begin **/ -->
+                <div id="left-panel-comments" class="" style="display: none;"></div>
+                <div id="left-panel-chat" class="" style="display: none;"></div>
+                <!-- /** coauthoring end **/ -->
+                <div id="left-panel-Search" class="" style="display: none; height: 100%;"></div>
+                <div id="left-panel-thumbnails" class="" style="display: none; height: 100%;">
+                    <div id="id_panel_thumbnails" class="block_elem" style="position: relative;touch-action:none;-webkit-touch-callout:none;">
+                        <div id="id_panel_thumbnails_split" class="block_elem" style="pointer-events: none;"></div>
+                        <canvas id="id_thumbnails_background" class="block_elem" style="user-select: none; z-index: 1; "></canvas>
+                        <canvas id="id_thumbnails" class="block_elem" style="user-select: none; z-index: 2;"></canvas>
+                        <div id="id_vertical_scroll_thmbnl" style="margin-left:20px;left: 320px; top: 0px; width: 10px; overflow: hidden; position: absolute; "></div>
+                    </div>
+                </div>
+                <div id="left-panel-plugins" class="" style="display: none; height: 100%;"></div>
+            </div>
+        </div>
+    </div>
+</div>

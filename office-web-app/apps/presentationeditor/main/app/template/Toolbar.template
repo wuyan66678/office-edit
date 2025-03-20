@@ -1,0 +1,279 @@
+<div class="toolbar">
+    <section class="box-tabs">
+        <div class="extra left"></div>
+        <%= tabsmarkup %>
+        <div class="extra right"></div>
+    </section>
+    <section class="box-controls">
+        <section class="box-panels">
+            <div class="group small toolbar-left">
+                <div class="toolbar-left-aside">
+                    <span class="btn-slot " id="slot-btn-undo"></span>
+                    <span class="btn-slot" id="slot-btn-redo"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="toolbar-left-center">
+                    <span class="btn-slot split" id="slot-btn-copystyle"></span>
+                    <span class="btn-slot" id="slot-btn-paste"></span>
+                </div>
+                <div class="toolbar-left-aside">
+                    <span class="btn-slot" id="slot-btn-cut"></span>
+                    <span class="btn-slot" id="slot-btn-copy"></span>
+                </div>
+                <div class="divider"></div>
+            </div>
+            <section class="panel home" data-tab="home">
+                <div class="group">
+                    <span class="btn-slot text x-huge slot-addslide"></span>
+                </div>
+                <div class="group" style="display:none;"></div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot split" id="slot-btn-changeslide"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot" id="slot-btn-preview"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <div class="elset  font-attr-top" >
+                        <span class="btn-slot" id="slot-field-fontname"></span>
+                        <span class="btn-slot" id="slot-field-fontsize"></span>
+                        <span class="btn-slot" id="slot-btn-incfont"></span>
+                        <span class="btn-slot" id="slot-btn-decfont"></span>
+                        <span class="btn-slot split" id="slot-btn-changecase"></span>
+                        <span class="btn-slot split" id="slot-btn-clearstyle"></span>
+
+                    </div>
+                    <div class="elset font-attr">
+                        <span class="btn-slot" id="slot-btn-bold"></span>
+                        <span class="btn-slot" id="slot-btn-italic"></span>
+                        <span class="btn-slot" id="slot-btn-underline"></span>
+                        <span class="btn-slot" id="slot-btn-strikeout"></span>
+                        <span class="btn-slot" id="slot-btn-superscript"></span>
+                        <span class="btn-slot" id="slot-btn-subscript"></span>
+                        <span class="btn-slot split" id="slot-btn-highlight"></span>
+                        <span class="btn-slot split" id="slot-btn-fontcolor"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot split" id="slot-btn-markers"></span>
+                        <span class="btn-slot split" id="slot-btn-numbering"></span>
+                        <span class="btn-slot split" id="slot-btn-decoffset"></span>
+                        <span class="btn-slot split" id="slot-btn-incoffset"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot split" id="slot-btn-halign"></span>
+                        <span class="btn-slot split" id="slot-btn-valign"></span>
+                        <span class="btn-slot split" id="slot-btn-linespace"></span>
+                        <span class="btn-slot split" id="slot-btn-columns"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge slot-instext"></span>
+                    <span class="btn-slot text x-huge slot-insertimg"></span>
+                    <span class="btn-slot text x-huge slot-insertshape"></span>
+                </div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot split" id="slot-btn-arrange-shape"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot split" id="slot-btn-align-shape"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot split" id="slot-btn-colorschemas"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot split" id="slot-btn-slidesize"></span>
+                    </div>
+                </div>
+                <div class="group flex small" id="slot-field-styles" style="width: auto;flex:1;min-width:120px;" ></div>
+                 <div class="divider"></div>
+                <div class="group small toolbar-right">
+                    <div class="toolbar-right-btn">
+                        <span class="btn-slot" id="slot-btn-search"></span>
+                        <span class="btn-slot" id="slot-btn-replace"></span>
+                    </div>  
+                </div>
+            </section>
+            <section class="panel" data-tab="ins">
+                <div class="group">
+                    <span class="btn-slot text x-huge slot-addslide"></span>
+                </div>
+                <div class="group" style="display:none;"></div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-inserttable"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge slot-instext"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-instextart"></span>
+                    <span class="btn-slot text x-huge slot-insertimg"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-insertchart"></span>
+                </div>
+                <div class="group small" id="slot-combo-insertshape"></div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge slot-comment"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-insertlink"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-editheader"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-datetime"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-slidenum"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-insertequation"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-inssymbol"></span>
+                </div>
+                <div class="separator media long"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-insaudio"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-insvideo"></span>
+                </div>
+            </section>
+            <section id="transitions-panel" class="panel" data-tab="transit">
+                <div class="group flex small" id="transit-field-effects" style="flex:1; width: auto; min-width: 140px;" ></div>
+
+                <div class="group small">
+                    <span class="btn-slot text x-huge" id="transit-button-parameters"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <div class="elset font-normal">
+                        <span class="btn-slot text" id="transit-duration"></span>
+                        <span id="transit-spin-duration" class="btn-slot text spinner"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot text" id="transit-button-preview"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot text" id="transit-checkbox-startonclick"></span>
+                    </div>
+                    <div class="elset font-normal">
+                        <span class="btn-slot text"  id="transit-checkbox-delay"></span>
+                        <div id="transit-spin-delay" class="btn-slot text spinner" style="margin-left: 5px;"></div>
+                   </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                     <div class="elset">
+                        <span class="btn-slot text " id="transit-button-apply"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot text x-huge"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="panel" data-tab="view">
+                <div class="group small">
+                    <div class="elset" style="display: flex;">
+                        <span class="btn-slot" id="slot-field-zoom" style="flex-grow: 1;"></span>
+                    </div>
+                    <div class="elset" style="text-align: center;">
+                        <span class="btn-slot text" id="slot-lbl-zoom" style="font-size: 11px;text-align: center;margin-top: 4px;"></span>
+                    </div>
+                </div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-btn-fts" style="font-size: 11px;text-align: center;"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-btn-ftw" style="font-size: 11px;text-align: center;"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-interface-theme"></span>
+                </div>
+                <div class="divider separator-theme"></div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-chk-notes"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-chk-rulers"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-chk-toolbar"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-chk-statusbar"></span>
+                    </div>
+                </div>
+            </section>
+            <section id="animation-panel" class="panel" data-tab="animate">
+                <div class="group flex small" id="animation-field-effects" style="flex:1; width: auto;  min-width: 140px;" ></div>
+                <div class="group small">
+                    <span class="btn-slot text x-huge" id="animation-button-parameters"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <span class="btn-slot text " id="animation-button-add-effect"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                     <span class="btn-slot text" id="animation-button-preview"></span>
+                    <!--<div class="elset">
+                        <span class="btn-slot text " id="animation-button-pane"></span>
+                    </div>-->
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <div class="elset font-normal">
+                        <span class="btn-slot text" id="animation-label-start"></span>
+                        <div class="btn-slot" style="width: 96px; " id="animation-start"></div>
+                    </div>
+                    <div class="elset font-normal">
+                        <div class="btn-slot text"  id="animation-trigger"></div>
+                    </div>
+                </div>
+                <div class="group small">
+                    <div class="elset font-normal">
+                        <span class="btn-slot text" id="animation-duration"></span>
+                        <span id="animation-spin-duration"  style="width: 96px; " class="btn-slot"></span>
+                    </div>
+                    <div class="elset font-normal">
+                        <span class="btn-slot text" id="animation-delay"></span>
+                        <span id="animation-spin-delay" class="btn-slot text spinner" ></span>
+                    </div>
+                </div>
+                <div class="group small">
+                    <div class="elset font-normal">
+                        <span class="btn-slot text" id="animation-repeat"></span>
+                        <div id="animation-spin-repeat" style="width: 96px; " class="btn-slot" ></div>
+                    </div>
+                    <div class="elset font-normal">
+                         <span class="btn-slot text" id="animation-checkbox-rewind"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small" >
+                    <div class="elset">
+                        <div class="btn-slot text" id="animation-moveearlier"></div>
+                    </div>
+                    <div class="elset font-normal">
+                        <div class="btn-slot text" id="animation-movelater"></div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</div>

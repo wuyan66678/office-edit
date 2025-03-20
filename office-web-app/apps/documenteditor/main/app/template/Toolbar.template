@@ -1,0 +1,222 @@
+<div class="toolbar">
+    <div class="box-tabs">
+        <div class="extra left"></div>
+        <%= tabsmarkup %>
+        <div class="extra right"></div>
+    </div>
+    <section class="box-controls">
+        <section class="box-panels">
+            <div class="group small toolbar-left">
+                <div class="toolbar-left-aside">
+                    <span class="btn-slot " id="slot-btn-undo"></span>
+                    <span class="btn-slot" id="slot-btn-redo"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="toolbar-left-center">
+                    <span class="btn-slot split" id="slot-btn-copystyle"></span>
+                    <span class="btn-slot" id="slot-btn-paste"></span>
+                </div>
+                <div class="toolbar-left-aside">
+                    <span class="btn-slot" id="slot-btn-cut"></span>
+                    <span class="btn-slot" id="slot-btn-copy"></span>
+                </div>
+                <div class="divider"></div>
+            </div>
+            <section class="panel home" data-tab="home">
+
+                <div class="group small">
+                    <div class="elset font-style" >
+                        <span class="btn-slot" id="slot-field-fontname"></span>
+                        <span class="btn-slot" id="slot-field-fontsize"></span>
+                        <span class="btn-slot" id="slot-btn-incfont"></span>
+                        <span class="btn-slot" id="slot-btn-decfont"></span>
+                        <span class="btn-slot split" id="slot-btn-changecase"></span>
+                        <span class="btn-slot split" id="slot-btn-paracolor"></span>
+
+                    </div>
+                    <div class="elset font-attr">
+                        <span class="btn-slot" id="slot-btn-bold"></span>
+                        <span class="btn-slot" id="slot-btn-italic"></span>
+                        <span class="btn-slot" id="slot-btn-underline"></span>
+                        <span class="btn-slot" id="slot-btn-strikeout"></span>
+                        <span class="btn-slot" id="slot-btn-superscript"></span>
+                        <span class="btn-slot" id="slot-btn-subscript"></span>
+                        <span class="btn-slot split" id="slot-btn-highlight"></span>
+                        <span class="btn-slot split" id="slot-btn-fontcolor"></span>
+                        <span class="btn-slot split" id="slot-btn-clearstyle"></span>
+
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small">
+                    <div class="elset align">
+                        <span class="btn-slot split" id="slot-btn-markers"></span>
+                        <span class="btn-slot split" id="slot-btn-numbering"></span>
+                        <span class="btn-slot split" id="slot-btn-multilevels"></span>
+                        <span class="btn-slot split" id="slot-btn-decoffset"></span>
+                        <span class="btn-slot split" id="slot-btn-incoffset"></span>
+                    </div>
+                    <div class="elset align">
+                        <span class="btn-slot split" id="slot-btn-align-left"></span>
+                        <span class="btn-slot split" id="slot-btn-align-center"></span>
+                        <span class="btn-slot split" id="slot-btn-align-right"></span>
+                        <span class="btn-slot split" id="slot-btn-linespace"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group small" id="slot-field-styles"></div>
+                <div class="divider"></div>
+                <div class="group small toolbar-right">
+                    <div class="toolbar-right-btn">
+                        <span class="btn-slot" id="slot-btn-search"></span>
+                        <span class="btn-slot" id="slot-btn-replace"></span>
+                    </div>  
+                </div>
+            </section>
+            <section class="panel" data-tab="ins">
+         
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-blankpage"></span>
+                    <span class="btn-slot text x-huge btn-pagebreak"></span>
+                <!-- /**</div>
+                <div class="divider"></div>
+                <div class="group">     **/ -->
+                    <span class="btn-slot text x-huge" id="slot-btn-instable"></span>
+                </div>
+                <div class="divider"></div>
+        
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-insimage"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-inschart"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-insshape"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge slot-comment"></span>
+                    <span class="btn-slot text x-huge slot-inshyperlink"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-editheader"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-datetime"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-instext"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-instextart"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-insequation"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-inssymbol"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-dropcap"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-controls"></span>
+                </div>
+            </section>
+            <section class="panel" data-tab="layout">
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-pagemargins"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-pageorient"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-pagesize"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-columns"></span>
+                    <span class="btn-slot text x-huge btn-pagebreak"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-line-numbers"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-img-wrapping"></span>
+                    <span class="btn-slot text x-huge" id="slot-img-movefrwd"></span>
+                    <span class="btn-slot text x-huge" id="slot-img-movebkwd"></span>
+                    <span class="btn-slot text x-huge" id="slot-img-align"></span>
+                    <span class="btn-slot text x-huge" id="slot-img-group"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-watermark"></span>
+                </div>
+            </section>
+            <section class="panel" data-tab="links">
+                <div class="group">
+                    <span class="btn-slot text x-huge btn-contents"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-contents-update"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge slot-notes"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge slot-inshyperlink"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-bookmarks"></span>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-caption"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-crossref"></span>
+                </div>
+                <div class="group ">
+                    <span class="btn-slot text x-huge" id="slot-btn-tof"></span>
+                 <!-- /**
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-btn-tof"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-btn-tof-update"></span>
+                    </div>
+                **/ -->
+                </div>
+            </section>
+            <section class="panel view" data-tab="view">
+             <!-- /**
+                <div class="group" data-layout-name="toolbar-view-navigation">
+                    <span class="btn-slot text x-huge" id="slot-btn-navigation"></span>
+                </div>
+                <div class="divider" data-layout-name="toolbar-view-navigation"></div>
+                **/ -->
+                <div class="group small">
+                    <div class="elset" style="display: flex;">
+                        <span class="btn-slot" id="slot-field-zoom" style="flex-grow: 1;"></span>
+                    </div>
+                    <div class="elset" style="text-align: center;">
+                        <span class="btn-slot text" id="slot-lbl-zoom" style="font-size: 11px;text-align: center;margin-top: 4px;"></span>
+                    </div>
+                </div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-btn-ftp" style="font-size: 11px;text-align: center;"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-btn-ftw" style="font-size: 11px;text-align: center;"></span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="group">
+                    <span class="btn-slot text x-huge" id="slot-btn-interface-theme"></span>
+                    <span class="btn-slot text x-huge" id="slot-btn-dark-document"></span>
+                </div>
+                <div class="divider separator-theme"></div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-chk-toolbar"></span>
+                    </div>
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-chk-statusbar"></span>
+                    </div>
+                </div>
+                <div class="divider separator-rulers"></div>
+                <div class="group small">
+                    <div class="elset">
+                        <span class="btn-slot text" id="slot-chk-rulers"></span>
+                    </div>
+                    <div class="elset"></div>
+                </div>
+            </section>
+        </section>
+    </section>
+</div>

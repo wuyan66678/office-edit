@@ -1,0 +1,104 @@
+
+.settings-panel {
+}
+
+.right-panel .settings-panel {
+    label.input-label{
+        vertical-align: baseline;
+    }
+}
+
+.item-wrap {
+    width:50px;
+    height:50px;
+    background-size: cover;
+}
+
+.combo-pattern-item {
+    .background-ximage-all('right-panels/patterns.png', 112px);
+}
+
+.combo-dataview-menu {
+    .form-control {
+        cursor: pointer;
+        background-color: @background-normal-ie;
+        background-color: @background-normal;
+
+        &.text {
+            background: @background-normal-ie;
+            background: @background-normal;
+            vertical-align: bottom;
+        }
+    }
+}
+
+.item-gradient {
+    width:50px;
+    height:50px;
+}
+
+.item-gradient-separator {
+    margin-right: 62px !important;
+}
+
+#signature-requested-sign,
+#signature-valid-sign,
+#signature-invalid-sign {
+    height: 100%;
+    overflow: hidden;
+    margin: 0 -10px 0 -15px;
+
+    .item {
+        display: block;
+        border: none;
+        width: 100%;
+        .box-shadow(none);
+        margin: 0;
+
+        &:hover,
+        &.over {
+            background-color: @highlight-button-hover-ie;
+            background-color: @highlight-button-hover;
+
+            .caret {
+                display: inline-block;
+            }
+        }
+    }
+
+    .signature-item {
+        padding: 5px 2px 5px 15px;
+        text-overflow: ellipsis;
+        min-height: 25px;
+
+        .name {
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            cursor: pointer;
+            max-width: 160px;
+            text-overflow: ellipsis;
+        }
+
+        .caret {
+            margin: 9px;
+            display: none;
+            position: absolute;
+            right: 14px;
+            width: 8px;
+            height: 8px;
+            border: solid 1px @icon-normal-pressed-ie;
+            border: solid 1px @icon-normal-pressed;
+            opacity: 0.6;
+            border-bottom: none;
+            border-right: none;
+            background-image: none;
+            transform: rotate(-135deg);
+
+            &.nomargin {
+                margin: 2px;
+                right: 26px;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+<div id="view-right-menu" class="tool-menu right">
+    <div class="right-doc-name">
+        <div  class="right-doc-name-left">
+            <p id="right-doc-name"></p>
+        </div>
+        <div class="right-doc-name-right">
+            <button class="right-panel-close" id="right-panel-close">×</button>
+        </div>
+    </div>
+    <div class="right-btn">
+        <div class="right-btn-container">
+            <button id="right-btn-detail" class="active">
+                详情
+            </button>
+            <button id="right-btn-version" class="">
+                版本
+            </button>
+            <button id="right-btn-log">
+                日志
+            </button>
+						<button id="right-btn-cooperation" style="display:none;">
+                协作记录
+            </button>
+        </div>
+       
+    </div>
+    <div class="right-info-panel">
+        <div id="right-panel-detail"></div>
+        <div id="right-panel-version">
+            <div id="right-panel-history" class="layout-item"></div>
+        </div>
+        <div id="right-panel-log"></div>
+				<div id="right-panel-cooperation">
+					<div id="ooperation-btn-wrap" class="ooperation-btn-wrap">
+						<span id="cooperation-filter-btn" class="ooperation-btn-item">筛选</span>
+						<span id="cooperation-export-btn" class="ooperation-btn-item">导出</span>
+						<span id="cooperation-refresh-btn" class="ooperation-btn-item">刷新</span>
+					</div>
+					<div id="coo-filter-dlg" class="coo-filter-dlg">
+						<div class="triangle-icon"></div>
+						<div class="coo-filter-dlg-content"><div id="coo-user-tree"></div></div>
+						<div class="coo-filter-dlg-footer">
+							<button id="coo-filter-dlg-close-btn">关闭</button>
+							<button id="coo-filter-dlg-save-btn" class="save-btn">确定</button>
+						</div>
+					</div>
+					<div id="cooperation-no-data" class="cooperation-no-data">暂无协作记录</div>
+					<div class="cooperation-content-wrap">
+						<div id="right-panel-cooperation-content" class="right-panel-cooperation-content"></div>
+						<div id="cooperation-more-btn" class="cooperation-more-btn">加载更多</div>
+					</div>
+				</div>
+    </div>
+</div>
